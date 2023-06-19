@@ -1,0 +1,2 @@
+# reversid-merge-tool
+featureブランチをbuildブランチにマージするツール
