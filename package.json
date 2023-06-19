@@ -1,0 +1,38 @@
+{
+  "name": "cpmp",
+  "version": "1.0.0",
+  "description": "easy checkout and pull and merge and push",
+  "keywords": [
+    "merge",
+    "checkout",
+    "push",
+    "pull",
+    "build"
+  ],
+  "homepage": "https://izibazi.com/",
+  "repository": "izibazi/cpmp",
+  "funding": "https://izibazi.com/",
+  "lincence": "MIT",
+  "author": "izibazi@gmail.com",
+  "bin": "lib/bin.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/bin.ts",
+    "lint": "eslint",
+    "prepare": "npm run build && npm run lint"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "eslint": "^8.43.0",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
